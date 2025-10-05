@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "404403512807",
+    "project_id": "reelix-5be39",
+    "storage_bucket": "reelix-5be39.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404403512807:android:2c00377d62dd1c3a7a4942",
+        "android_client_info": {
+          "package_name": "com.example.reelix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXWQikIf8mvhEsfNk7ZaWLaaQd1RHAdJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
