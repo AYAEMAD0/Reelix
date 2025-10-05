@@ -17,7 +17,7 @@
   "forgot_password": "Forgot Password",
   "enter_email_to_reset": "Enter your email to reset password",
   "reset_password": "Reset Password",
-  "forget_password": "Forget Password ?",
+  "forget_password?": "Forget Password ?",
   "dont_have_account": "Don't have an account?",
   "register": "Register",
 

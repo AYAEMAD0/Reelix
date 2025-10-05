@@ -20,7 +20,7 @@ class AppStrings {
   static const String forgotPassword = 'forgot_password';
   static const String enterEmailToReset = 'enter_email_to_reset';
   static const String resetPassword = 'reset_password';
-  static const String forgetPassword = 'forget_password';
+  static const String forgetPassword_ = 'forget_password?';
   static const String dontHaveAccount = 'dont_have_account';
   static const String register = 'register';
 

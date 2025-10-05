@@ -18,7 +18,7 @@
   "forgot_password": "نسيت كلمة المرور",
   "enter_email_to_reset": "أدخل بريدك الإلكتروني لإعادة تعيين كلمة المرور",
   "reset_password": "إعادة تعيين كلمة المرور",
-  "forget_password": "هل نسيت كلمة المرور؟",
+  "forget_password?": "هل نسيت كلمة المرور؟",
   "dont_have_account": "ليس لديك حساب؟",
   "register": "تسجيل",
 

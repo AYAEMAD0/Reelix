@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:reelix/core/constants/app_asset.dart';
 import 'package:reelix/core/constants/app_strings.dart';
+import 'package:reelix/core/routing/routes.dart';
 import 'package:reelix/core/theme/app_colors.dart';
 import 'package:reelix/features/onboarding/presentation/widget/logo_text_button.dart';
 import '../../../../core/theme/app_styles.dart';
@@ -64,6 +65,7 @@ class OnboardingView extends StatelessWidget {
                         text: AppStrings.loginWithGmail.tr(),
                         onPressed: () {
                           //todo login with email
+                          Navigator.pushReplacementNamed(context, Routes.loginRouteName);
                         },
                         imageName: AppAsset.gmailLogo,
                         widthImage: 25.w,
