@@ -5,9 +5,19 @@ import 'app_colors.dart';
 import 'font_weight_helper.dart';
 
 class TextStyles {
-  static TextStyle font28WhiteExtraBold = GoogleFonts.montserrat(
-    fontSize: 28.sp,
+  static TextStyle font30DarkBlueExtraBold = GoogleFonts.montserrat(
+    fontSize: 30.sp,
     fontWeight: FontWeightHelper.extraBold,
+    color: AppColor.blueDark,
+  );
+  static TextStyle font18WhiteMedium = GoogleFonts.montserrat(
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelper.medium,
     color: AppColor.white,
+  );
+  static TextStyle font20DarkBlueRegular= GoogleFonts.montserrat(
+    fontSize: 20.sp,
+    fontWeight: FontWeightHelper.semiBold,
+    color: AppColor.blueDark,
   );
 }

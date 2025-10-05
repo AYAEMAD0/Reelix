@@ -12,5 +12,6 @@ class AppColor {
   static const Color voteBackground=Color(0x52283652);
   static const Color red=Colors.red;
   static const Color green=Colors.green;
+  static const Color black=Colors.black;
   static const Color transparent=Colors.transparent;
 }
