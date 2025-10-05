@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'core/routing/app_router.dart';
 import 'core/routing/routes.dart';
+import 'core/theme/app_theme.dart';
 
 class Reelix extends StatelessWidget {
   final AppRouter appRouter;
@@ -20,6 +21,7 @@ class Reelix extends StatelessWidget {
       builder: (_, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
+          theme: AppTheme.theme,
           initialRoute: Routes.onboardingRouteName,
           onGenerateRoute: appRouter.generateRoute,
         );
