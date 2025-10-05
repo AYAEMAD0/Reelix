@@ -7,14 +7,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:reelix/main.dart';
+import 'package:reelix/core/routing/app_router.dart';
+import 'package:reelix/reelix.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
-
+    // Build our app and trigger a frame
+    await tester.pumpWidget(Reelix(appRouter: AppRouter()));
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
     expect(find.text('1'), findsNothing);
