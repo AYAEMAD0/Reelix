@@ -2,8 +2,8 @@ class AppStrings {
   //onboarding
   static const String startWatchingNow = 'start_watching_now';
   static const String experienceLatest = 'experience_latest';
-  static const String loginWithGoogle = 'login_with_google';
-  static const String loginWithGmail = 'login_with_gmail';
+  static const String getStarted = 'get_started';
+
 
   //auth
   static const String lightCameraExplore = 'light_camera_explore';
@@ -17,12 +17,32 @@ class AppStrings {
   static const String signUp = 'sign_up';
   static const String haveAccount = 'have_account';
   static const String login = 'login';
+  static const String loginWithGoogle = 'login_with_google';
   static const String forgotPassword = 'forgot_password';
   static const String enterEmailToReset = 'enter_email_to_reset';
   static const String resetPassword = 'reset_password';
   static const String forgetPassword_ = 'forget_password?';
   static const String dontHaveAccount = 'dont_have_account';
   static const String register = 'register';
+  static const String or = "or";
+  static const String nameRequired = "name_required";
+  static const String nameMinLength = "name_min_length";
+  static const String emailRequired  = "email_required";
+  static const String emailInvalid = "email_invalid";
+  static const String passwordRequired = "password_required";
+  static const String passwordMinLength = "password_min_length";
+  static const String loginSuccessfully = "login_successfully";
+  static const String emailNotVerified = "email_not_verified";
+  static const String emailVerifiedYet = "email_verified_yet";
+  static const String loading = "loading";
+  static const String success = "success";
+  static const String verificationEmail = "verification_email";
+  static const String verifyBeforeLogin = "verify_before_login";
+  static const String ok = "ok";
+  static const String error = "error";
+  static const String resetPasswordSent = "reset_password_sent";
+
+
 
   static const String home = 'home';
   static const String whatToWatch = 'what_to_watch';

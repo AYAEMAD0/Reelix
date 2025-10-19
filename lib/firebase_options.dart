@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDmRXLip-zJgtLOOqnmdaFXOCryNPoTgWc',
+    apiKey: 'AIzaSyBKUtLDR16iG6Sh50RqjFGdNmn00zdV318',
     appId: '1:404403512807:web:5055aebbb309c79e7a4942',
     messagingSenderId: '404403512807',
     projectId: 'reelix-5be39',
@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAXWQikIf8mvhEsfNk7ZaWLaaQd1RHAdJY',
+    apiKey: 'AIzaSyCxReoRgSZp3nsrfzf1vR8nPH0LSxQjvYk',
     appId: '1:404403512807:android:2c00377d62dd1c3a7a4942',
     messagingSenderId: '404403512807',
     projectId: 'reelix-5be39',
@@ -59,25 +59,27 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC2hNvYgXtDTow12UEFVhenAloIGUHDJBs',
+    apiKey: 'AIzaSyA8rNVec_gKHIRcenbnMLsJizATe0kYItw',
     appId: '1:404403512807:ios:704e390cf4c98e957a4942',
     messagingSenderId: '404403512807',
     projectId: 'reelix-5be39',
     storageBucket: 'reelix-5be39.firebasestorage.app',
+    iosClientId: '404403512807-lm7395gqo1f7p2aqq07bikrthjn6fg3f.apps.googleusercontent.com',
     iosBundleId: 'com.example.reelix',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyC2hNvYgXtDTow12UEFVhenAloIGUHDJBs',
+    apiKey: 'AIzaSyA8rNVec_gKHIRcenbnMLsJizATe0kYItw',
     appId: '1:404403512807:ios:704e390cf4c98e957a4942',
     messagingSenderId: '404403512807',
     projectId: 'reelix-5be39',
     storageBucket: 'reelix-5be39.firebasestorage.app',
+    iosClientId: '404403512807-lm7395gqo1f7p2aqq07bikrthjn6fg3f.apps.googleusercontent.com',
     iosBundleId: 'com.example.reelix',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDmRXLip-zJgtLOOqnmdaFXOCryNPoTgWc',
+    apiKey: 'AIzaSyBKUtLDR16iG6Sh50RqjFGdNmn00zdV318',
     appId: '1:404403512807:web:4bc0c41374228e1f7a4942',
     messagingSenderId: '404403512807',
     projectId: 'reelix-5be39',

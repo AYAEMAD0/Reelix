@@ -12,15 +12,32 @@
           "package_name": "com.example.reelix"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "404403512807-p60v8jr1amuggoei11lopkfi7ar7ep0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyAXWQikIf8mvhEsfNk7ZaWLaaQd1RHAdJY"
+          "current_key": "AIzaSyCxReoRgSZp3nsrfzf1vR8nPH0LSxQjvYk"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404403512807-p60v8jr1amuggoei11lopkfi7ar7ep0o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "404403512807-lm7395gqo1f7p2aqq07bikrthjn6fg3f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.reelix"
+              }
+            }
+          ]
         }
       }
     }
